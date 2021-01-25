@@ -1,0 +1,25 @@
+@media (max-width: 500px) {
+  .container-search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      margin-top: 15vh;
+      width: 35vh;
+      position: relative;
+
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      width: 3vh;
+      position: absolute;
+      right: 0;
+    }
+    input {
+      width: 100%;
+    }
+  }
+}
