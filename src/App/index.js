@@ -6,14 +6,27 @@ import SearchBar from "../components/body/home-page/SearchBar";
 import SubmitButton from "../components/body/home-page/SubmitButton";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showResultWeather: false,
+    };
+  }
+
   render() {
     return (
       <div>
         <SocialButton />
         <Title />
-        <ExplanationText />
-        <SearchBar />
-        <SubmitButton />
+        {this.state.showResultWeather ? (
+          <></>
+        ) : (
+          <>
+            <ExplanationText />
+            <SearchBar />
+            <SubmitButton />
+          </>
+        )}
       </div>
     );
   }
