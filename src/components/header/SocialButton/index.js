@@ -4,22 +4,22 @@ import "./styles.scss";
 
 function SocialButton(props) {
   return (
-    <div className="socialbutton-position">
-      <a href="https://github.com/collpa/weather-seer" target="blank">
+    <div className={"socialbutton-position"}>
+      <a href={"https://github.com/collpa/weather-seer"} target={"blank"}>
         <img
           src={githubimg}
-          alt="GitHub icon"
-          className="socialbutton-dimension"
+          alt={"GitHub icon"}
+          className={"socialbutton-dimension"}
         />
       </a>
       <a
-        href="https://www.linkedin.com/in/paola-collu-2889371b4/"
-        target="blank"
+        href={"https://www.linkedin.com/in/paola-collu-2889371b4/"}
+        target={"blank"}
       >
         <img
           src={linkedinimg}
-          alt="Linkedin Icon"
-          className="socialbutton-dimension"
+          alt={"Linkedin Icon"}
+          className={"socialbutton-dimension"}
         />
       </a>
     </div>
