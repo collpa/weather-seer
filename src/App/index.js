@@ -1,6 +1,18 @@
-//static body and components
 import React from "react";
-function App() {
-  return <div></div>;
+import SocialButton from "../components/header/SocialButton";
+import Title from "../components/header/Title";
+import ExplanationText from "../components/body/home-page/ExplanationText";
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <SocialButton />
+        <Title />
+        <ExplanationText />
+      </div>
+    );
+  }
 }
+
 export default App;
