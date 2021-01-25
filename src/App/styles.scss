@@ -4,3 +4,29 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.submit-button-position {
+  width: 25vh;
+  margin-top: 20vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.cta-return-homepage {
+  width: 100%;
+  margin-top: 4vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  button {
+    padding: 0 20px;
+    height: 6vh;
+    border-radius: 17vh;
+    border: none;
+    outline: none;
+  }
+}
