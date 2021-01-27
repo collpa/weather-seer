@@ -16,3 +16,10 @@
     width: 70px;
   }
 }
+
+//desktop screen dimension
+@include desktop {
+  .socialbutton-dimension {
+    width: 50px;
+  }
+}

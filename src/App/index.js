@@ -5,8 +5,8 @@ import Title from "../components/header/Title";
 import ExplanationText from "../components/body/home-page/ExplanationText";
 import SearchBar from "../components/body/home-page/SearchBar";
 import ImageOfTheWeather from "../components/body/results-page/ImageOfTheWeather";
-import WeatherDetails from "../components/body/results-page/WeatherDeatils";
-
+import WeatherDetails from "../components/body/results-page/WeatherDetails";
+import MediaQuery from "react-responsive";
 class App extends React.Component {
   constructor(props) {
     super(props);

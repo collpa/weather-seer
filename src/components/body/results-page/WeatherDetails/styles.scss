@@ -26,3 +26,11 @@
     }
   }
 }
+
+//desktop screen dimension
+@include desktop {
+  .desktop-icons-position {
+    display: flex;
+    flex-direction: row;
+  }
+}

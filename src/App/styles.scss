@@ -8,7 +8,7 @@
 
 .submit-button-position {
   width: 100%;
-  margin-top: 180px;
+  margin-top: 70px;
 
   display: flex;
   justify-content: center;
@@ -41,5 +41,20 @@ button {
     height: 70px;
     font-size: 25px;
     border-radius: 40px;
+  }
+}
+
+//desktop screen dimension
+@include desktop {
+  button {
+    width: 20%;
+    padding: 0 20px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 40px;
+  }
+
+  .submit-button-position {
+    margin-top: 30px;
   }
 }

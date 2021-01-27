@@ -13,3 +13,10 @@
     margin-top: 50px;
   }
 }
+
+//desktop screen dimension
+@include desktop {
+  .weather-image-position {
+    margin-top: 50px;
+  }
+}

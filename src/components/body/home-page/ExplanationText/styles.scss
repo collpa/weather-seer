@@ -14,3 +14,10 @@ p {
     font-size: 30px;
   }
 }
+
+//desktop screen dimension
+@include desktop {
+  p {
+    font-size: 18px;
+  }
+}
