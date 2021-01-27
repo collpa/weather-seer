@@ -24,14 +24,14 @@ class App extends React.Component {
           <>
             <ImageOfTheWeather />
             <div className={"flex-icons"}>
-              <WeatherDetails />
-              <WeatherDetails />
-              <WeatherDetails />
+              <WeatherDetails label={"dawn"} />
+              <WeatherDetails label={"noon"} />
+              <WeatherDetails label={"dusk"} />
             </div>
             <div className={"flex-icons"}>
-              <WeatherDetails />
-              <WeatherDetails />
-              <WeatherDetails />
+              <WeatherDetails label={"high/low"} />
+              <WeatherDetails label={"wind"} />
+              <WeatherDetails label={"humidity"} />
             </div>
             <div className={"cta-return-homepage"}>
               <button>{"Check out another city’s weather!"}</button>

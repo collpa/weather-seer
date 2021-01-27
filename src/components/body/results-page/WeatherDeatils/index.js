@@ -1,12 +1,12 @@
 import "./styles.scss";
 
-const WeatherDetails = () => {
+const WeatherDetails = (props) => {
   return (
     <div className={"container-position"}>
       <div className={"icon-position"}>
         <img src={"https://via.placeholder.com/60"} alt={"Icon frame"} />
       </div>
-      <p>{"vento"}</p>
+      <p>{props.label}</p>
     </div>
   );
 };
