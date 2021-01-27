@@ -15,7 +15,7 @@
 }
 
 .cta-return-homepage {
-  width: 100%;
+  width: 50%;
   margin-top: 35px;
 
   display: flex;
@@ -57,14 +57,19 @@ button {
   }
 
   button {
-    width: 20%;
+    width: 100%;
     padding: 0 20px;
     height: 70px;
     font-size: 25px;
     border-radius: 40px;
   }
 
+  .cta-return-homepage {
+    margin-top: 100px;
+  }
+
   .submit-button-position {
     margin-top: 30px;
+    width: 20%;
   }
 }

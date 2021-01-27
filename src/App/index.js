@@ -44,16 +44,20 @@ class App extends React.Component {
               </div>
             </div>
 
-            <div className={"cta-return-homepage"}>
-              <button>{"Check out another city’s weather!"}</button>
+            <div className={"center"}>
+              <div className={"cta-return-homepage"}>
+                <button>{"Check out another city’s weather!"}</button>
+              </div>
             </div>
           </>
         ) : (
           <>
             <ExplanationText />
             <SearchBar />
-            <div className={"submit-button-position"}>
-              <button>{"Press Me!"}</button>
+            <div className={"center"}>
+              <div className={"submit-button-position"}>
+                <button>{"Press Me!"}</button>
+              </div>
             </div>
           </>
         )}
