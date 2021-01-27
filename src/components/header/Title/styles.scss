@@ -1,5 +1,14 @@
+@import "./../../../responsive.scss";
+
 //default values, correct for mobile
 h1 {
   font-size: 45px;
   text-align: center;
+}
+
+//tablet screen dimension
+@include tablet {
+  h1 {
+    font-size: 80px;
+  }
 }

@@ -1,6 +1,9 @@
+@import "./../../../../responsive.scss";
+
 //default values, correct for mobile
 .container-position {
   margin-top: 35px;
+  flex: 1;
 
   .icon-position {
     display: flex;
@@ -10,5 +13,16 @@
   p {
     padding: 0;
     margin: 0;
+  }
+}
+
+//tablet screen dimension
+@include tablet {
+  .container-position {
+    margin-top: 60px;
+
+    p {
+      font-size: 25px;
+    }
   }
 }

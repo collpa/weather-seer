@@ -1,6 +1,16 @@
+@import "./../../../../responsive.scss";
+
 //default values, correct for mobile
 p {
   padding-top: 15px;
   font-size: 15px;
   text-align: center;
+}
+
+//tablet screen dimension
+@include tablet {
+  p {
+    padding-top: 30px;
+    font-size: 30px;
+  }
 }

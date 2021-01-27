@@ -7,11 +7,12 @@
 
 //default values, correct for mobile
 .socialbutton-dimension {
-  width: 35px;
+  width: 40px;
 }
 
+//tablet screen dimension
 @include tablet {
   .socialbutton-dimension {
-    width: 6vh;
+    width: 70px;
   }
 }

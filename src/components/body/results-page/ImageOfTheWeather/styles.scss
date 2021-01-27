@@ -1,6 +1,15 @@
+@import "./../../../../responsive.scss";
+
 //default values, correct for mobile
 .weather-image-position {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+}
+
+//tablet screen dimension
+@include tablet {
+  .weather-image-position {
+    margin-top: 50px;
+  }
 }
