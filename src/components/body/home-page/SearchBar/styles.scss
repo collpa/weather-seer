@@ -1,25 +1,24 @@
-@media (max-width: 500px) {
-  .container-search-bar {
+//default values, correct for mobile
+.container-search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    margin-top: 20vh;
+    width: 35vh;
+    position: relative;
+
     display: flex;
     align-items: center;
-    justify-content: center;
+  }
 
-    div {
-      margin-top: 20vh;
-      width: 35vh;
-      position: relative;
-
-      display: flex;
-      align-items: center;
-    }
-
-    img {
-      width: 3vh;
-      position: absolute;
-      right: 0;
-    }
-    input {
-      width: 100%;
-    }
+  img {
+    width: 3vh;
+    position: absolute;
+    right: 0;
+  }
+  input {
+    width: 100%;
   }
 }

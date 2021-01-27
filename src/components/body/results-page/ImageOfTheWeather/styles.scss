@@ -1,7 +1,6 @@
-@media (max-width: 500px) {
-  .weather-image-position {
-    margin-top: 1.75vh;
-    display: flex;
-    justify-content: center;
-  }
+//default values, correct for mobile
+.weather-image-position {
+  margin-top: 1.75vh;
+  display: flex;
+  justify-content: center;
 }

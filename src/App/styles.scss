@@ -21,12 +21,11 @@
   justify-content: center;
 }
 
-@media (max-width: 500px) {
-  button {
-    padding: 0 20px;
-    height: 6vh;
-    border-radius: 17vh;
-    border: none;
-    outline: none;
-  }
+//default values, correct for mobile
+button {
+  padding: 0 20px;
+  height: 6vh;
+  border-radius: 17vh;
+  border: none;
+  outline: none;
 }
