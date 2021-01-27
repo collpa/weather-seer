@@ -1,7 +1,7 @@
 @import "./../responsive.scss";
 
 /*body style*/
-.flex-icons {
+.flex-weather-details-items {
   display: flex;
   flex-wrap: wrap;
 }
@@ -46,12 +46,12 @@ button {
 
 //desktop screen dimension
 @include desktop {
-  .desktop-container {
-    margin-top: 70px;
+  .weather-details-desktop-container {
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 
-    .flex-icons {
+    .flex-weather-details-items {
       flex-direction: column;
     }
   }

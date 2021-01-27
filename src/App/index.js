@@ -26,8 +26,8 @@ class App extends React.Component {
               <ImageOfTheWeather />
             </MediaQuery>
 
-            <div className={"desktop-container"}>
-              <div className={"flex-icons"}>
+            <div className={"weather-details-desktop-container"}>
+              <div className={"flex-weather-details-items"}>
                 <WeatherDetails label={"dawn"} />
                 <WeatherDetails label={"noon"} />
                 <WeatherDetails label={"dusk"} />
@@ -37,7 +37,7 @@ class App extends React.Component {
                 <ImageOfTheWeather />
               </MediaQuery>
 
-              <div className={"flex-icons"}>
+              <div className={"flex-weather-details-items"}>
                 <WeatherDetails label={"high/low"} />
                 <WeatherDetails label={"wind"} />
                 <WeatherDetails label={"humidity"} />
