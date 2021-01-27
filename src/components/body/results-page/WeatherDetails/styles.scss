@@ -29,8 +29,12 @@
 
 //desktop screen dimension
 @include desktop {
-  .desktop-icons-position {
+  .container-position {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+
+    p {
+      padding-left: 15px;
+    }
   }
 }

@@ -22,17 +22,28 @@ class App extends React.Component {
         <Title />
         {this.state.showResultWeather ? (
           <>
-            <ImageOfTheWeather />
-            <div className={"flex-icons"}>
-              <WeatherDetails label={"dawn"} />
-              <WeatherDetails label={"noon"} />
-              <WeatherDetails label={"dusk"} />
+            <MediaQuery maxDeviceWidth={1099}>
+              <ImageOfTheWeather />
+            </MediaQuery>
+
+            <div className={"desktop-container"}>
+              <div className={"flex-icons"}>
+                <WeatherDetails label={"dawn"} />
+                <WeatherDetails label={"noon"} />
+                <WeatherDetails label={"dusk"} />
+              </div>
+
+              <MediaQuery minDeviceWidth={1100}>
+                <ImageOfTheWeather />
+              </MediaQuery>
+
+              <div className={"flex-icons"}>
+                <WeatherDetails label={"high/low"} />
+                <WeatherDetails label={"wind"} />
+                <WeatherDetails label={"humidity"} />
+              </div>
             </div>
-            <div className={"flex-icons"}>
-              <WeatherDetails label={"high/low"} />
-              <WeatherDetails label={"wind"} />
-              <WeatherDetails label={"humidity"} />
-            </div>
+
             <div className={"cta-return-homepage"}>
               <button>{"Check out another city’s weather!"}</button>
             </div>
