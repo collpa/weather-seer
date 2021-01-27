@@ -1,3 +1,5 @@
+@import "./../../../responsive.scss";
+
 .socialbutton-position {
   display: flex;
   justify-content: space-between;
@@ -5,5 +7,11 @@
 
 //default values, correct for mobile
 .socialbutton-dimension {
-  width: 5vh;
+  width: 35px;
+}
+
+@include tablet {
+  .socialbutton-dimension {
+    width: 6vh;
+  }
 }

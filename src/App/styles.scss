@@ -6,8 +6,8 @@
 }
 
 .submit-button-position {
-  width: 25vh;
-  margin-top: 20vh;
+  width: 100%;
+  margin-top: 180px;
 
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@
 
 .cta-return-homepage {
   width: 100%;
-  margin-top: 4vh;
+  margin-top: 28px;
 
   display: flex;
   justify-content: center;
@@ -23,9 +23,10 @@
 
 //default values, correct for mobile
 button {
+  width: 50%;
   padding: 0 20px;
-  height: 6vh;
-  border-radius: 17vh;
+  height: 40px;
+  border-radius: 30px;
   border: none;
   outline: none;
 }
