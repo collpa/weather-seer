@@ -12,3 +12,9 @@ $breakpoint-desktop: 1100px;
     @content;
   }
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
