@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.scss";
-import SocialButton from "../components/header/SocialButton";
-import Title from "../components/header/Title";
-import ExplanationText from "../components/body/home-page/ExplanationText";
-import SearchBar from "../components/body/home-page/SearchBar";
-import ImageOfTheWeather from "../components/body/results-page/ImageOfTheWeather";
-import WeatherDetails from "../components/body/results-page/WeatherDetails";
+import SocialButton from "../shared/SocialButton";
+import Title from "../shared/Title";
+import ExplanationText from "../home-page/ExplanationText";
+import SearchBar from "../home-page/SearchBar";
+import ImageOfTheWeather from "../results-page/ImageOfTheWeather";
+import WeatherDetails from "../results-page/WeatherDetails";
 import MediaQuery from "react-responsive";
 class App extends React.Component {
   constructor(props) {
