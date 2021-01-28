@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
-import SocialButton from "../shared/SocialButton";
-import Title from "../shared/Title";
+import SocialButton from "./../shared-components/SocialButton";
+import Title from "./../shared-components/Title";
 import ExplanationText from "../home-page/ExplanationText";
 import SearchBar from "../home-page/SearchBar";
 import ImageOfTheWeather from "../results-page/ImageOfTheWeather";
