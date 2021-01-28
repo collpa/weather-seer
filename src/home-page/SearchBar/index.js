@@ -1,5 +1,5 @@
 import "./styles.scss";
-import searchlensimg from "../../../../assets/searchlens.png";
+import searchlensimg from "./../../assets/searchlens.png";
 
 const SearchBar = () => {
   return (

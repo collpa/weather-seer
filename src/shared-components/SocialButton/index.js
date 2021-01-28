@@ -1,5 +1,5 @@
-import githubimg from "./../../../assets/github.png";
-import linkedinimg from "./../../../assets/linkedin1.png";
+import githubimg from "./../../assets/github.png";
+import linkedinimg from "./../../assets/linkedin1.png";
 import "./styles.scss";
 
 function SocialButton(props) {
