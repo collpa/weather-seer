@@ -26,6 +26,12 @@
 }
 
 //default values, correct for mobile
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#cedbfd, #f8d2d2);
+}
+
 button {
   width: 60%;
   padding: 0 20px;

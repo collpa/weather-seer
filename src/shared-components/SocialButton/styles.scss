@@ -10,6 +10,7 @@
 //default values, correct for mobile
 .socialbutton-dimension {
   width: 40px;
+  padding: 0 10px;
 }
 
 //tablet screen dimension
@@ -23,6 +24,5 @@
 @include desktop {
   .socialbutton-dimension {
     width: 50px;
-    padding: 10px;
   }
 }
