@@ -1,6 +1,9 @@
 @import "./../responsive.scss";
 
-/*body style*/
+* {
+  margin: 0;
+}
+
 .flex-weather-details-items {
   display: flex;
   flex-wrap: wrap;
@@ -65,7 +68,7 @@ button {
   }
 
   .cta-return-homepage {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .submit-button-position {

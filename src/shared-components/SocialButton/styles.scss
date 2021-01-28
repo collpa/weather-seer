@@ -1,6 +1,8 @@
 @import "./../../responsive.scss";
 
 .socialbutton-position {
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
 }
@@ -21,5 +23,6 @@
 @include desktop {
   .socialbutton-dimension {
     width: 50px;
+    padding: 10px;
   }
 }
